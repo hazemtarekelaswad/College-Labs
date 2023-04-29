@@ -1,0 +1,10 @@
+- The assignment is an individual assignment. 
+- Don't forget you minimize the DFA after converting
+- Use any language you want, recommended Python 
+- Each student should upload a ".py" file that runs as follow 
+                                     python filename.py convert input_file_name.json  output_file_name.json
+for other languages you should upload an "exe" file that runs as 
+                                     filename.exe 
+
+convert input_file_name.json  output_file_name.json
+- The file name should be ID_name.py (e.g. 12345_Abdelrahman_Kaseb.py)

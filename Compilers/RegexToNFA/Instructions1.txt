@@ -1,0 +1,27 @@
+- The assignment is an individual assignment. 
+- Don't forget you should stick to Thompson’s construction algorithm as it is
+- Use any language you want, recommended Python 
+- Each student should upload a ".py" file that runs as follow 
+                                     python filename.py convert "[a-zA-Z]*"
+for other languages you should upload an "exe" file that run as 
+                                     filename.exe convert "[a-zA-Z]*"
+- The file name should be ID_name.py (e.g. 12345_Abdelrahman_Kaseb.py)
+
+-----------------------------------------------------------------------------------
+Regarding programming assignments 1 and 2.
+For those who finished the assignment as it is, you will take bouns grades
+For those who didn't finish, you can solve this simplified problem
+Assume that the regex contains only:
+1- Match --> e.g. AB
+2- OR --> e.g. A|B
+3- Character set --> e.g.  [A-Z]
+4- Repeat one or more --> A+
+5- Repeat zero or more --> A*
+6- Parentheses --> (AB)
+7- Any combination of these rules by adding parentheses after each part 
+for example, if we want to write (AB|C[A-Z])+ 
+it should be written as (((AB)|C)[A-Z])+
+this will simplify regex check and convert to NFA
+
+
+The assignment should be delivered on Saturday (30/4), but we will allow a three-day delay without affecting the grades
